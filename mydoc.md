@@ -51,11 +51,7 @@ conda 23.5.2
 ```
 ###
 
-## VDO 1 : Build a Machine Learning App From Scratch with Flask & Docker ##
-VDO Part1: https://www.youtube.com/watch?v=S--SD4QbGps
-VDO Part2: https://www.youtube.com/watch?v=zGP_nYmZd9c
-VDO Simple Falsk API: https://www.youtube.com/watch?v=zsYIw6RXjfM&list=PL5hH4_l-LhbKMWMtfxdHo8AKV9aYI1bSV&index=2&t=620s
-
+## 1: Build a Machine Learning App with Flask ##
   > cd ml-dev
   > conda create -n nlp puythion=3.9
 
@@ -136,7 +132,7 @@ nltk==3.6.6
 # "import nltk; nltk.download('omw-1.4'); nltk.download('wordnet')"
 ```  
 
-## VDO 2 : Create Dockerfile ##
+## 2: Create Dockerfile ##
 - Create Dockerfile
 - Create docker-compose
 > docker compose up --build
