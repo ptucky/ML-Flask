@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  mlapp:
+    container_name: mlapp
+    image: ptucky/mlapp
+    ports:
+      - "6003:6003"
+    build: 
+      context: .
+      dockerfile: Dockerfile
